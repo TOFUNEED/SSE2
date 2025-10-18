@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>しなの鉄道 時刻表管理ツール</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>しなの鉄道 時刻表管理ツール</h1>
+
+        <div id="search-box-container"></div>
+        <div id="train-list-container"></div>
+
+        <div id="editor-container" style="display: none;">
+            <h2 id="editor-title"></h2>
+            <form id="train-form">
+                <div id="train-info-form-container"></div>
+                <div id="section-template-container"></div>
+                <div id="station-table-container"></div>
+                <div id="action-bar-container"></div>
+            </form>
+        </div>
+    </div>
+
+    <div id="snackbar"></div>
+
+    <script type="module" src="src/main.js"></script>
+
+</body>
+</html>
